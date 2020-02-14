@@ -124,8 +124,70 @@ footer a {
 
 .copyright {
   text-align: center;
+  margin-top: 48px;
 }
 
 .contact {
   margin: 32px 0;
+}
+
+.details-title-section {
+  margin: 32px 0;
+}
+
+.details-content-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.details-card {
+  /* display: flex;
+  flex-direction: column;
+  align-content: space-around; */
+  
+  border: 1px solid black;
+  background-color: lightgray;
+  width: 48%;
+  padding: 16px;
+  margin-bottom: 32px;
+}
+.details-card p {
+  margin-bottom: 15px;
+}
+
+.more-button {
+  border: 1px solid black;
+  /* text-decoration: none; */
+  color: black;
+  height: 22pt;
+  width: 35%;
+  min-width: 80px;
+
+  border-radius: 5px;
+}
+
+hr {
+  margin-bottom: 32px;
+}
+
+ul {
+  list-style: inside;
+}
+li {
+  margin-top: 8px;
+}
+
+.facts-section {
+  display: flex;
+  justify-content: space-between;
+  /* align-content: space-between; */
+}
+.facts-item {
+  width: 47%;
+}
+.facts-section p {
+  /* margin-right: 32px; */
+  margin-bottom: 32px;
 }
